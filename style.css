@@ -10,6 +10,16 @@ body{
    
     
 }
+#blue{
+    color: #0065FC;
+}
+#transparent{
+    color: #d7d7d7;
+}
+#icon-blue{
+    color: #0065FC;
+
+}
 
 @media only screen and (max-width: 1400px){
    
@@ -75,6 +85,10 @@ body{
         border: 1px solid #D9D9D9;
         width:10rem;
         height: 4rem;
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        justify-content: space-around;
         
     }
 
@@ -108,6 +122,7 @@ body{
         margin: 1rem;
         padding: 1rem;
         border-radius: 20px;
+        box-shadow: 3px 3px 15px 5px rgba(0,0,0,0.23);
     }
 
     .heber img{
@@ -150,8 +165,12 @@ body{
         margin: 3rem 0rem;
         gap: 3rem;
     }
+    .act{
+        margin-left: 5rem;
+    }
     .activite{
         display: flex;
+        justify-content: center;
        
     }
 
@@ -160,10 +179,15 @@ body{
         height: 20rem;
         border-radius: 20px 20px 0px 0px;
     }
+    .activite h3{
+        text-align: center;
+        
+    }
     .bulle_activite1,.bulle_activite2,.bulle_activite3,.bulle_activite4{
         border-radius: 20px;
         margin: .5rem;
         background-color: #FFFFFF;
+        box-shadow: 3px 3px 15px 5px rgba(0,0,0,0.23);
        
     }
 
@@ -171,6 +195,14 @@ body{
         background-color: #D9D9D9;
         display: flex;
         justify-content: space-around;
-        margin: 20px 20px 0px 20px;
+        align-items: center;
+        margin: 2rem 2rem 0rem 2rem;
+        padding: 4rem;
+    }
+    .propos li,.bas_heber li,.assit li,.propos a,.bas_heber a,.assit a{
+        padding: .7rem;
+        text-decoration: none;
+        list-style: none;
+        
     }
 }
