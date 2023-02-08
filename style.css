@@ -77,12 +77,20 @@ body{
         height: 4rem;
         
     }
+
+    .element_prin{
+        display: flex;
+        justify-content: space-between;
+    }
     
 
     .heber{
         background-color: #D9D9D9;
         border-radius: 20px;
         margin: 1rem;
+        width: 60%;
+        float: left;
+        
     }
     .heber h1, .heber h4{
         margin: 0rem 0rem 0rem 6rem;
@@ -110,11 +118,14 @@ body{
 
     .popu{
         background-color: #D9D9D9;
-        width: auto;
+        width: 20%;
+        margin-left: auto;
+        
     }
     .popu img{
         width: 10rem;
         height: 11rem;
+        
     }
     .activite{
         display: flex;
