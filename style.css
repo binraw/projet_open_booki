@@ -95,6 +95,7 @@ body{
     .element_prin{
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     
 
@@ -103,6 +104,7 @@ body{
         border-radius: 20px;
         margin: 1rem;
         width: 60%;
+        height: 30%;
         
         
     }
@@ -117,6 +119,9 @@ body{
         justify-content: center;
         
     }
+    .bulle_hotel4,.bulle_hotel5,.bulle_hotel6,.bulle_hotel7,.bulle_hotel8,.bulle_hotel9{
+        width: 25%;
+    }
     .bulle_hotel4,.bulle_hotel5,.bulle_hotel6,.bulle_hotel7,.bulle_hotel8,.bulle_hotel9,.bulle_hotel1,.bulle_hotel2,.bulle_hotel3{
         background-color: #F0F2F6;
         margin: 1rem;
@@ -127,7 +132,7 @@ body{
 
     .heber img{
         width: 13rem;
-        height: 10rem;
+        height: 8rem;
         border-radius: 20px 20px 0px 0px;
         
     }
@@ -138,6 +143,7 @@ body{
         background-color: #D9D9D9;
         width: 35%;
         border-radius: 20px;
+        height: 30%;
         
     }
     .bulle_hotel1,.bulle_hotel2,.bulle_hotel3{
@@ -150,12 +156,12 @@ body{
     }
     .popu img{
         width: 10rem;
-        height: 10rem; 
+        height: 8rem; 
         border-radius: 20px 0px 0px 20px;
     }
     .popu h1{
         margin: 0rem 0rem 0rem 6rem;
-        padding: 3rem 0rem 2rem 0rem;
+        padding:1rem 0rem 1rem 0rem;
     }
 
     .bulle2{
@@ -163,7 +169,7 @@ body{
         flex-direction: column;
         justify-content: center;
         margin: 3rem 0rem;
-        gap: 3rem;
+        
     }
     .act{
         margin-left: 5rem;
