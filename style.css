@@ -56,6 +56,13 @@ body{
         gap: 4rem;
         
     }
+    .premierelem a{
+        color: #0065FC;
+        text-decoration: overline;
+    }
+     .deuxelem a {
+        text-decoration: none;
+    }
 
     
     .presentation{
@@ -63,6 +70,9 @@ body{
         left: 4rem;
         top: 7rem;
         margin-left:4rem;
+    }
+    .info{
+        font-weight: 400;
     }
 
     .input{
