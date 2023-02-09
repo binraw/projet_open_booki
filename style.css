@@ -219,6 +219,13 @@ body{
         height: 30%;
         
     }
+    .popu_graph{
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+        position: relative;
+        top: 2rem;
+    }
     .bulle_hotel1,.bulle_hotel2,.bulle_hotel3{
         display: flex;
         justify-content: space-around;
