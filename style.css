@@ -73,6 +73,14 @@ body{
         align-items: center;
         gap:1rem;
     }
+    #btn-animaux{
+        width: auto;
+        text-align: center;
+       flex-direction: row;
+       padding: 1rem;
+       gap: 1rem;
+       background-color: #DEEBFF;
+    }
     
     .info{
         margin-top: 4rem;
