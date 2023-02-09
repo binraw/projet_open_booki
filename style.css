@@ -80,8 +80,13 @@ body{
         top: 7rem;
         margin-left:4rem;
     }
+    #icon-i{
+        color: #0065FC;
+    }
     .info{
         font-weight: 400;
+        display: flex;
+        gap: 1rem;
     }
 
     .input{
