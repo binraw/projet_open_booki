@@ -23,6 +23,9 @@ body{
 p{
     font-weight: 400;
 }
+.bulle_filtre1 :hover,.bulle_filtre2 :hover,.bulle_filtre3 :hover,.bulle_filtre4 :hover{
+    background-color: #DEEBFF ;
+}
 
 @media only screen and (max-width: 1400px){
    
@@ -147,7 +150,7 @@ p{
        flex-direction: row;
        padding: 1rem;
        gap: 1rem;
-       background-color: #DEEBFF;
+      
     }
     
     .info{
