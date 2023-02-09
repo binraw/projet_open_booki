@@ -56,9 +56,18 @@ body{
         gap: 4rem;
         
     }
+    .barre{
+        border-top: 2px solid #0065FC;
+        width: 8.5rem;
+        position: absolute;
+        top: 0rem;
+        right: 7rem;
+    }
     .premierelem a{
         color: #0065FC;
-        text-decoration: overline;
+        text-decoration: none;
+
+        
     }
      .deuxelem a {
         text-decoration: none;
