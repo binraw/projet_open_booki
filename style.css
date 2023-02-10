@@ -622,7 +622,7 @@ p{
         display:flex;
         width: 100%;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
         margin-left: auto;
         margin-right: auto;
         margin-top: 10rem;
@@ -649,9 +649,9 @@ p{
     
     .presentation{
         position: relative;
-        left: 4rem;
-        top: 7rem;
-        margin-left:4rem;
+        margin-top: auto;
+        margin-left: 2rem;
+        margin-right: auto;
     }
     #icon-i{
         color: #0065FC;
@@ -660,20 +660,26 @@ p{
         font-weight: 400;
         display: flex;
         gap: 1rem;
-        margin-top: 4rem;
-        margin-left: 6rem;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .input{
         position: relative;
-        margin-top: 10rem;
-        margin-left: 8rem;
+        display: flex;
+        align-items: center;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        
+       
         
 
     }
     .icon-pos{
         background-color: #D9D9D9;
-        width: 3rem;
+        width: 10%;
         border-radius: 5px 0px 0px 5px;
         display: flex;
         align-items: center;
@@ -682,10 +688,12 @@ p{
        
     }
     #pos{
-        font-size: 1.5rem;
+        font-size: auto;
     }
     form{
         display: flex;
+       
+        
        
     }
     #texte{
@@ -694,7 +702,7 @@ p{
         border-color: #D9D9D9;
         height: 3rem;
         border: 0px;
-        width: 16rem;
+        width: 55%;
         font-size:x-large;
     }
     input[type="submit"]{
@@ -702,16 +710,21 @@ p{
         color: #FFFFFF;
         border: 0px;
         border-radius: 0px 5px 5px 0px;
-        width: 6rem;
+        width: 30%;
     }
 
     .flt{
         
         margin-top: 5rem;
         margin-left: 4rem;
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
         align-items: center;
         gap:1rem;
+     
+    }
+    .flt :nth-child(1){
+        width: 100%;
     }
     #btn-animaux{
         width: auto;
@@ -728,15 +741,17 @@ p{
         font-size: 17px;
         border-radius: 25px;
         border: 1px solid #D9D9D9;
-        width:10rem;
+        width:auto;
         height: 4rem;
         display: flex;
         align-items: center;
         padding: 1rem;
         justify-content: space-around;
         background-color: #F0F2F6;
+        gap: 1rem;
         
     }
+
 
     .element_prin{
         display: block;
@@ -749,14 +764,14 @@ p{
         background-color: #D9D9D9;
         border-radius: 20px;
         margin: 1rem;
-        width: 100%;
+        width: 90%;
         height: 30%;
         
         
     }
     .heber h1, .heber h4{
-        margin: 0rem 0rem 0rem 6rem;
-        padding: 3rem 0rem 2rem 0rem;
+        margin: 3rem;
+        padding: 1rem;
     }
     .bulle{
         display: block;
@@ -789,9 +804,9 @@ p{
 
     .popu{
         background-color: #D9D9D9;
-        width: 100%;
+        width: 90%;
         border-radius: 20px;
-        height: 30%;
+        height: auto;
         margin: 1rem;
     
         
