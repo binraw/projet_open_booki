@@ -27,7 +27,7 @@ p{
     background-color: #DEEBFF ;
 }
 
-@media only screen and (max-width: 1400px){
+@media only screen and (min-width: 993px){
    
 
     h1{
@@ -93,6 +93,8 @@ p{
         font-weight: 400;
         display: flex;
         gap: 1rem;
+        margin-top: 4rem;
+        margin-left: 6rem;
     }
 
     .input{
@@ -120,7 +122,6 @@ p{
        
     }
     #texte{
-        height: 1.5rem;
         border-radius: 5px;
         border-color: #D9D9D9;
         height: 3rem;
@@ -153,10 +154,7 @@ p{
       
     }
     
-    .info{
-        margin-top: 4rem;
-        margin-left: 6rem;
-    }
+
 
     button{
         font-size: 17px;
@@ -269,7 +267,6 @@ p{
     }
 
     .activite img{
-        width: 13rem;
         height: 20rem;
         border-radius: 20px 20px 0px 0px;
         width: 100%;
@@ -310,7 +307,7 @@ p{
 
 /*------------------ CSS TABLETTE----------*/
 
-@media only screen and (max-width: 992px){
+@media (min-width: 769px)  and (max-width: 992px){
    
 
     h1{
@@ -345,15 +342,15 @@ p{
         gap: 4rem;
         
     }
-    .barre{
+    /* .barre{
         border-top: 2px solid #0065FC;
         width: 8.5rem;
         position: absolute;
         top: 0rem;
         right: 7rem;
-    }
+    } */
     .premierelem a{
-        color: #0065FC;
+        /* color: #0065FC; */
         text-decoration: none;
 
         
@@ -376,6 +373,8 @@ p{
         font-weight: 400;
         display: flex;
         gap: 1rem;
+        margin-top: 4rem;
+        margin-left: 6rem;
     }
 
     .input{
@@ -403,7 +402,7 @@ p{
        
     }
     #texte{
-        height: 1.5rem;
+        /* height: 1.5rem; */
         border-radius: 5px;
         border-color: #D9D9D9;
         height: 3rem;
@@ -436,10 +435,7 @@ p{
       
     }
     
-    .info{
-        margin-top: 4rem;
-        margin-left: 6rem;
-    }
+
 
     button{
         font-size: 17px;
@@ -508,12 +504,14 @@ p{
         width: 100%;
         border-radius: 20px;
         height: 30%;
+        margin: 1rem;
         
     }
     .popu_graph{
         display: flex;
-        align-items: center;
-        gap: 4rem;
+        align-items:center ;
+        justify-content: space-between;
+        margin: 4rem;
         position: relative;
         top: 2rem;
     }
@@ -553,8 +551,7 @@ p{
     }
 
     .activite img{
-        width: 13rem;
-        height: 20rem;
+        height: auto;
         border-radius: 20px 20px 0px 0px;
         width: 100%;
     }
