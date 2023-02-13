@@ -192,7 +192,7 @@ p{
         
     }
     .heber h1, .heber h4{
-        margin: 0rem 0rem 0rem 6rem;
+        margin: 0rem 4rem;
         padding: 3rem 0rem 2rem 0rem;
     }
     .bulle{
@@ -253,7 +253,7 @@ p{
         border-radius: 20px 0px 0px 20px;
     }
     .popu h1{
-        margin: 0rem 0rem 0rem 6rem;
+        margin: 0rem 3rem;
         padding:1rem 0rem 1rem 0rem;
     }
 
@@ -275,7 +275,7 @@ p{
     }
 
     .activite img{
-        height: 20rem;
+        height: 32rem;
         border-radius: 20px 20px 0px 0px;
         width: 100%;
     }
