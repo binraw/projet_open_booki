@@ -294,7 +294,7 @@ p{
         border: 0px;
         
     }
-    .propos li,.bas_heber li,.assit li,.propos a,.bas_heber a,.assit a{
+    .propos li,.bas-heber li,.assit li,.propos a,.bas-heber a,.assit a{
         
         text-decoration: none;
         list-style: none;
@@ -451,7 +451,7 @@ p{
         
     }
 
-    .element_prin{
+    .element-prin{
         display: block;
         justify-content: space-between;
         align-items: center;
@@ -578,7 +578,7 @@ p{
         border: 0px;
         
     }
-    .propos li,.bas_heber li,.assit li,.propos a,.bas_heber a,.assit a{
+    .propos li,.bas-heber li,.assit li,.propos a,.bas-heber a,.assit a{
         
         text-decoration: none;
         list-style: none;
@@ -895,7 +895,7 @@ p{
         border: 0px;
         
     }
-    .propos li,.bas_heber li,.assit li,.propos a,.bas_heber a,.assit a{
+    .propos li,.bas-heber li,.assit li,.propos a,.bas-heber a,.assit a{
         
         text-decoration: none;
         list-style: none;
