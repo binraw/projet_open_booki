@@ -620,22 +620,30 @@ p{
 
      .menu{
         display:flex;
-        width: 100%;
-        align-items: center;
-        justify-content: space-around;
+        position: relative;
+        width: 50%;
+        justify-content: space-between;
         margin-left: auto;
         margin-right: auto;
         margin-top: 10rem;
+        gap: 40%;
         
         
     }
-     .barre{
-        border-top: 2px solid #0065FC;
-        width: 8.5rem;
-        position: absolute;
-        top: 0rem;
-        right: 7rem;
-    } 
+    .barre{
+        border-bottom: 4px solid #0065FC;
+        width: 15rem;
+       position:absolute;
+       top: 5rem;
+       left: -8rem;
+    }
+    .barre2{
+        border-bottom: 4px solid #d7d7d7;
+        width: 100%;
+       position:absolute;
+       top: 5rem;
+       left: 7rem;
+    }
     .premierelem a{
         /* color: #0065FC; */
         text-decoration: none;
@@ -649,7 +657,7 @@ p{
     
     .presentation{
         position: relative;
-        margin-top: auto;
+        margin-top: 5rem;
         margin-left: 2rem;
         margin-right: auto;
     }
