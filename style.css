@@ -646,7 +646,7 @@ p{
        left: 7rem;
     }
     .premierelem a{
-        /* color: #0065FC; */
+        color: #0065FC;
         text-decoration: none;
 
         
@@ -660,6 +660,7 @@ p{
         position: relative;
         margin-top: 5rem;
         margin-left: 2rem;
+        margin-bottom: 3rem;
         margin-right: auto;
     }
     #icon-i{
