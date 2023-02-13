@@ -632,16 +632,17 @@ p{
     }
     .barre{
         border-bottom: 4px solid #0065FC;
-        width: 15rem;
+        width: 19rem;
        position:absolute;
-       top: 5rem;
+       top: 4rem;
        left: -8rem;
+       z-index: 1;
     }
     .barre2{
         border-bottom: 4px solid #d7d7d7;
         width: 100%;
        position:absolute;
-       top: 5rem;
+       top: 4rem;
        left: 7rem;
     }
     .premierelem a{
