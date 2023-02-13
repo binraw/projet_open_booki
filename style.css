@@ -670,8 +670,8 @@ p{
         font-weight: 400;
         display: flex;
         gap: 1rem;
-        margin-top: auto;
-        margin-left: auto;
+        margin-top: 3rem;
+        margin-left: 3rem;
         margin-right: auto;
     }
 
@@ -822,24 +822,25 @@ p{
         
     }
     .popu_graph{
-        display: block;
+        display: flex;
         align-items:center ;
         justify-content: space-between;
-        margin: 4rem;
+       
         position: relative;
         top: 2rem;
     }
     .bulle_hotel1,.bulle_hotel2,.bulle_hotel3{
         display: flex;
         justify-content: space-around;
-        height: 8rem;
+        height: auto;
+        margin: 2rem;
     }
     .span{
         display: block;
         margin: 2rem;
     }
     .popu img{
-        width: 15rem;
+        width: 50%;
         height: 100%; 
         border-radius: 20px 0px 0px 20px;
     }
