@@ -18,7 +18,7 @@ body{
 }
 #icon-blue{
     color: #0065FC;
-
+  
 }
 p{
     font-weight: 400;
@@ -76,7 +76,7 @@ p{
         display: flex;
         gap: 1rem;
         margin-top: 4rem;
-        margin-left: 6rem;
+        margin-left: 3rem;
     }
 
     .input{
@@ -122,10 +122,10 @@ p{
     .flt{
         
         margin-top: 5rem;
-        margin-left: 4rem;
+        margin-left: 3rem;
         display: flex;
         align-items: center;
-        gap:1rem;
+        gap:.5rem;
     }
     #btn-animaux{
         width: auto;
@@ -139,16 +139,18 @@ p{
 
 
     button{
-        font-size: 17px;
+        font-weight: 700;
         border-radius: 25px;
-        border: 1px solid #F2F2F2;
+        border: 2px solid #F2F2F2;
         width:10rem;
-        height: 4rem;
+        height: 3rem;
         display: flex;
         align-items: center;
         padding: 1rem;
-        justify-content: space-around;
-        background-color: #F0F2F6;
+        /* justify-content: space-around;  */
+        background-color: #ffffff;
+        gap: 1rem;
+        margin: 2rem;
         
     }
 
