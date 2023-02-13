@@ -34,26 +34,14 @@ p{
         font-size: 22px;
     }
 
-    .logo{
+    #logo{
       position: relative;
-      left: 4rem;
-      top: 5rem;
-      width: 50%;
+      width: 6rem;
+    top: 4rem;
+    left: 3rem;
     }
    
-   
-    .logo2{
-        
-        position: absolute;
-        left: 35.5px;
-        top: 9.5px;
-        
-    }
-    .logo3{
-        position: absolute;
-        left: 35.5px;
-        top: 8px;
-    }
+
 
 
     .menu{
@@ -314,27 +302,14 @@ p{
         font-size: 22px;
     }
 
-    .logo{
-      position: relative;
-      left: 4rem;
-      top: 5rem;
-      width: 50%;
-    }
+    #logo{
+        position: relative;
+        width: 6rem;
+      top: 4rem;
+      left: 3rem;
+      }
+     
    
-   
-    .logo2{
-        
-        position: absolute;
-        left: 35.5px;
-        top: 9.5px;
-        
-    }
-    .logo3{
-        position: absolute;
-        left: 35.5px;
-        top: 8px;
-    }
-
 
     .menu{
         display:flex;
@@ -595,29 +570,13 @@ p{
         font-size: 22px;
     }
 
-    .logo{
-      position: relative;
-        margin-left: auto;
-        margin-right: auto;
-        top: 6rem;
-      width: 80%;
-    }
-   
-   
-    .logo2{
-        
-        position: absolute;
-        left: 35.5px;
-        top: 9.5px;
-        
-    }
-    .logo3{
-        position: absolute;
-        left: 35.5px;
-        top: 8px;
-    }
-
-
+    #logo{
+        position: relative;
+        width: 6rem;
+      top: 4rem;
+      left: 3rem;
+      }
+     
      .menu{
         display:flex;
         position: relative;
