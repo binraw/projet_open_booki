@@ -52,13 +52,33 @@ p{
     }
 
     .premier-elem a{
-        color: #0065FC;
+        color: #000000;
         text-decoration: none;
-
+        margin: 3rem;
+        padding: 2rem;
+        border-top: 3px solid transparent;
         
     }
-     .deux-elem a {
+    .premier-elem a:hover{
+        color: #0065FC;
         text-decoration: none;
+        margin: 3rem;
+        padding: 2rem;
+        border-top: 3px solid;
+    }
+     .deux-elem a {
+        color: #000000;
+        text-decoration: none;
+        margin: 3rem;
+        padding: 2rem;
+        border-top: 3px solid transparent;
+    }
+    .deux-elem a:hover{
+        color: #0065FC;
+        text-decoration: none;
+        margin: 3rem;
+        padding: 2rem;
+        border-top: 3px solid;
     }
 
     
@@ -189,7 +209,7 @@ p{
     .bulle-hotel,.bulle-hotel2{
         background-color: #F0F2F6;
         margin: 1rem;
-        padding: .5rem;
+        padding: .3rem;
         border-radius: 20px;
         box-shadow: 3px 3px 15px 5px rgba(0,0,0,0.23);
     }
