@@ -737,7 +737,7 @@ p{
         width: 100%;
     }
     #btn-animaux{
-        width: auto;
+        width: 80%;
         text-align: center;
        flex-direction: row;
        padding: 1rem;
