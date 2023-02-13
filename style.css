@@ -47,33 +47,27 @@ p{
     .menu{
         display:flex;
         justify-content: flex-end;
-        gap: 4rem;
+        
         
     }
-    .barre{
-        border-top: 2px solid #0065FC;
-        width: 8.5rem;
-        position: absolute;
-        top: 0rem;
-        right: 7rem;
-    }
-    .premierelem a{
+
+    .premier-elem a{
         color: #0065FC;
         text-decoration: none;
 
         
     }
-     .deuxelem a {
+     .deux-elem a {
         text-decoration: none;
     }
 
     
-    .presentation{
+     .presentation{ 
         position: relative;
-        left: 4rem;
+       margin: 3rem;
         top: 7rem;
-        margin-left:4rem;
-    }
+        
+    } */
     #icon-i{
         color: #0065FC;
     }
@@ -160,7 +154,7 @@ p{
 
     .element-prin{
         display: flex;
-        justify-content: space-between;
+        
         align-items: center;
     }
     
@@ -168,9 +162,10 @@ p{
     .heber{
         background-color: #F2F2F2;
         border-radius: 20px;
-        margin: 1rem;
-        width: 60%;
-        height: 30%;
+        margin: 3rem;
+        width: 55%;
+       padding: 1rem;
+        
         
         
     }
@@ -208,9 +203,10 @@ p{
 
     .popu{
         background-color: #F2F2F2;
-        width: 35%;
+        width: 30%;
         border-radius: 20px;
-        height: 30%;
+        height: 55%;
+        margin: 3rem;
         
     }
     .popu-graph{
@@ -223,6 +219,7 @@ p{
     .bulle-hotel2{
         display: flex;
         justify-content: space-around;
+        
     }
     .span{
         display: block;
@@ -243,15 +240,16 @@ p{
         flex-direction: column;
         justify-content: center;
         margin: 3rem 0rem;
+        padding: 1.5rem;
         
     }
     .act{
-        margin-left: 5rem;
+         margin-left: 3rem;
     }
     .activite{
         display: flex;
-        justify-content: center;
-       
+        
+       margin: 2rem;
     }
 
     .activite img{
@@ -260,24 +258,26 @@ p{
         width: 100%;
     }
     .activite h3{
-        text-align: center;
+        display: flex;
+        text-align: start;
+        padding: 1rem;
         
-    }
-    .bulle-activite{
+     } 
+        .bulle-activite{
         border-radius: 20px;
-        margin: 1rem;
+         margin: 1rem; 
         background-color: #FFFFFF;
         box-shadow: 3px 3px 15px 5px rgba(0,0,0,0.23);
-        width: 25%;
+        width: 55rem;
        
-    }
+    } 
 
     .bas{
         background-color: #F2F2F2;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin: 2rem 2rem 0rem 2rem;
+        margin: 3rem 3rem 0rem 3rem;
         padding: 2rem;
         border: 0px;
         
@@ -324,13 +324,13 @@ p{
         top: 0rem;
         right: 7rem;
     } */
-    .premierelem a{
+    .premier-elem a{
         /* color: #0065FC; */
         text-decoration: none;
 
         
     }
-     .deuxelem a {
+     .deux-elem a {
         text-decoration: none;
     }
 
@@ -604,13 +604,13 @@ p{
        top: 4rem;
        left: 7rem;
     }
-    .premierelem a{
+    .premier-elem a{
         color: #0065FC;
         text-decoration: none;
 
         
     }
-     .deuxelem a {
+     .deux-elem a {
         text-decoration: none;
     }
 
