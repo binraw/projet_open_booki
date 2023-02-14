@@ -223,9 +223,9 @@ p{
 
     .popu{
         background-color: #F2F2F2;
-        width: 35%;
+        width: auto;
         border-radius: 20px;
-        height: 55%;
+        height: 72vh;
         margin: 3rem;
         
     }
@@ -246,9 +246,14 @@ p{
         margin: 2rem;
     }
     .popu img{
-        width: 50%;
-        height: 8rem; 
+        width: 13vw;
+        height: auto; 
         border-radius: 20px 0px 0px 20px;
+    }
+    .star{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-end;
     }
     .popu h1{
         margin: 0rem 3rem;
