@@ -447,16 +447,17 @@ p{
 
 
     button{
-        font-size: 17px;
+        font-weight: 700;
         border-radius: 25px;
-        border: 1px solid #F2F2F2;
-        width:10rem;
-        height: 4rem;
+        border: 2px solid rgb(202 202 202);
+        width:auto;
+        height: 3rem;
         display: flex;
         align-items: center;
         padding: 1rem;
-        justify-content: space-around;
-        background-color: #F0F2F6;
+        background-color: #ffffff;
+        gap: .5rem;
+        margin: 1rem;
         
     }
 
@@ -476,7 +477,7 @@ p{
         
     }
     .heber h1, .heber h4{
-        margin: 0rem 0rem 0rem 6rem;
+        margin: 0rem 0rem 0rem 3rem;
         padding: 3rem 0rem 2rem 0rem;
     }
     .bulle{
