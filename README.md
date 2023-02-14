@@ -1,2 +1,3 @@
+
 # projet_open_booki
-Premier  projet  réaliser a l'aide d'une maquette fourni  par le site de formation openclassroom
+Premier  projet  réaliser à l'aide d'une maquette fournie par le site Openclassroom
