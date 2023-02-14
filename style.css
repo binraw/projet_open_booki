@@ -528,6 +528,7 @@ p{
         justify-content: space-around;
         height: auto;
         width: 30vw;
+        overflow: hidden;
     }
     .star{
         display: flex;
