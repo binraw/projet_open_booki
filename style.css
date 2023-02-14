@@ -308,6 +308,7 @@ p{
         list-style: none;
         padding: .5rem 0rem ;
         color: #000000;
+        font-weight: 400;
         
     }
 }
@@ -334,24 +335,37 @@ p{
     .menu{
         display:flex;
         justify-content: flex-end;
-        gap: 4rem;
+      
         
     }
-    /* .barre{
-        border-top: 2px solid #0065FC;
-        width: 8.5rem;
-        position: absolute;
-        top: 0rem;
-        right: 7rem;
-    } */
     .premier-elem a{
-        /* color: #0065FC; */
+        color: #000000;
         text-decoration: none;
-
+      
+        padding: 2rem;
+        border-top: 3px solid transparent;
         
+    }
+    .premier-elem a:hover{
+        color: #0065FC;
+        text-decoration: none;
+        margin: 3rem;
+        padding: 2rem;
+        border-top: 3px solid;
     }
      .deux-elem a {
+        color: #000000;
         text-decoration: none;
+        margin: 3rem;
+        padding: 2rem;
+        border-top: 3px solid transparent;
+    }
+    .deux-elem a:hover{
+        color: #0065FC;
+        text-decoration: none;
+        margin: 3rem;
+        padding: 2rem;
+        border-top: 3px solid;
     }
 
     
@@ -578,7 +592,7 @@ p{
         list-style: none;
         padding: .5rem 0rem ;
         color: #000000;
-        
+        font-weight: 400;
     }
 }
 
@@ -879,6 +893,6 @@ p{
         list-style: none;
         padding: .5rem 0rem ;
         color: #000000;
-        
+        font-weight: 400;
     } 
 }
