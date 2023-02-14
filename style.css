@@ -494,7 +494,7 @@ p{
     .bulle-hotel,.bulle-hotel2{
         background-color: #F0F2F6;
         margin: 1rem;
-        padding: .5rem;
+        padding: .2rem;
         border-radius: 20px;
         box-shadow: 3px 3px 15px 5px rgba(0,0,0,0.23);
     }
