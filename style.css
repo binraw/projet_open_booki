@@ -625,11 +625,9 @@ p{
      .menu{
         display:flex;
         position: relative;
-        justify-content: space-between;
-        margin-left: 3rem;
-        margin-right: 3rem;
+
         margin-top: 10rem;
-        gap: 40%;
+        /* gap: 40%; */
         
         
     }
@@ -645,9 +643,9 @@ p{
       .premier-elem a::after {
         content: "";
         position: absolute;
-        left: -3rem;
+        left: -2rem;
         bottom: 0;
-        width: 50vw;
+        width: 30vw;
         height: 2px;
         z-index: 0;
         background-color: rgb(255, 255, 255);
@@ -673,10 +671,10 @@ p{
       .deux-elem a::after {
         content: "";
         position: absolute;
-        right: -3rem;
+        right: -2rem;
         bottom: 0;
         z-index: 0;
-        width: 50vw;
+        width: 30vw;
         height: 2px;
         background-color: rgb(255, 255, 255);
       }
@@ -763,7 +761,7 @@ p{
      
     }
     .flt :nth-child(1){
-        width: 100%;
+        width: 70%;
     }
     #btn-animaux{
         width: 80%;
@@ -800,7 +798,7 @@ p{
 
     .heber{
         background-color: #ffffff;
-        width: 100vw;
+        width: 90vw;
         height: 30%;
         order: 2;
         
