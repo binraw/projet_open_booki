@@ -527,6 +527,11 @@ p{
         display: flex;
         justify-content: space-around;
         height: auto;
+        width: 30vw;
+    }
+    .star{
+        display: flex;
+        flex-wrap: nowrap;
     }
     span{
         margin: 1rem;
