@@ -625,40 +625,70 @@ p{
      .menu{
         display:flex;
         position: relative;
-        width: 50%;
         justify-content: space-between;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 3rem;
+        margin-right: 3rem;
         margin-top: 10rem;
         gap: 40%;
         
         
     }
-    .barre{
-        border-bottom: 4px solid #0065FC;
-        width: 19rem;
-       position:absolute;
-       top: 4rem;
-       left: -8rem;
-       z-index: 1;
-    }
-    .barre2{
-        border-bottom: 4px solid #d7d7d7;
-        width: 100%;
-       position:absolute;
-       top: 4rem;
-       left: 7rem;
-    }
-    .premier-elem a{
+    .premier-elem a {
+        color: #000000;
+        text-decoration: none;
+        padding-bottom: 2rem;
+        display: block;
+        text-align: center;
+        position: relative;
+      }
+      
+      .premier-elem a::after {
+        content: "";
+        position: absolute;
+        left: -3rem;
+        bottom: 0;
+        width: 22rem;
+        height: 2px;
+        z-index: 0;
+        background-color: rgb(255, 255, 255);
+      }
+      
+    .premier-elem a:hover{
         color: #0065FC;
-        text-decoration: none;
 
-        
     }
-     .deux-elem a {
+    .premier-elem a:hover::after{
+        background-color: #0065FC;
+        z-index: 1;
+    }
+    .deux-elem a {
+        color: #000000;
         text-decoration: none;
-    }
+        padding-bottom: 2rem;
+        display: block;
+        text-align: center;
+        position: relative;
+      }
+      
+      .deux-elem a::after {
+        content: "";
+        position: absolute;
+        right: -3rem;
+        bottom: 0;
+        z-index: 0;
+        width: 22rem;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+      }
+      
+    .deux-elem a:hover{
+        color: #0065FC;
 
+    }
+    .deux-elem a:hover::after{
+        background-color: #0065FC;
+        z-index: 1;
+    }
     
     .presentation{
         position: relative;
