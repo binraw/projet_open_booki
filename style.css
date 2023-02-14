@@ -121,6 +121,8 @@ p{
     }
     form{
         display: flex;
+        position: relative;
+        left: -5rem;
        
     }
     #texte{
@@ -161,15 +163,14 @@ p{
     button{
         font-weight: 700;
         border-radius: 25px;
-        border: 2px solid #F2F2F2;
-        width:10rem;
+        border: 2px solid rgb(202 202 202);
+        width:auto;
         height: 3rem;
         display: flex;
         align-items: center;
         padding: 1rem;
-        /* justify-content: space-around;  */
         background-color: #ffffff;
-        gap: 1rem;
+        gap: .5rem;
         margin: 2rem;
         
     }
@@ -184,7 +185,7 @@ p{
     .heber{
         background-color: #F2F2F2;
         border-radius: 20px;
-        margin: 3rem;
+        margin: 2rem 1rem 3rem 3rem;
         width: 55%;
        padding: 1rem;
         
@@ -225,7 +226,7 @@ p{
 
     .popu{
         background-color: #F2F2F2;
-        width: 30%;
+        width: 35%;
         border-radius: 20px;
         height: 55%;
         margin: 3rem;
