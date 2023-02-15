@@ -563,8 +563,6 @@ p{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        /* margin: 3rem 0rem; */
-        
     }
     .act{
         margin-left: 3rem;
@@ -573,7 +571,6 @@ p{
         display: flex;
         justify-content: center;
         margin: 3rem;
-       
     }
 
     .activite img{
@@ -583,7 +580,6 @@ p{
     }
     .activite h3{
         text-align: center;
-        
     }
     .bulle-activite{
         border-radius: 20px;
@@ -592,7 +588,6 @@ p{
         box-shadow: 3px 3px 15px 5px rgba(0,0,0,0.09);
         width: 45%;
         height: 19rem;
-       
     }
 
     .bas{
@@ -603,10 +598,8 @@ p{
         margin:3rem 3rem 0rem 3rem;
         padding: 2rem;
         border: 0px;
-        
     }
     .propos li,.bas-heber li,.assit li,.propos a,.bas-heber a,.assit a{
-        
         text-decoration: none;
         list-style: none;
         padding: .5rem 0rem ;
@@ -632,9 +625,9 @@ p{
      .menu{
         display:flex;
         position: relative;
-
+        margin-left: 3rem;
         margin-top: 10rem;
-        /* gap: 40%; */
+        gap: 40%;
         
         
     }
@@ -652,7 +645,7 @@ p{
         position: absolute;
         left: -2rem;
         bottom: 0;
-        width: 30vw;
+        width: 50vw;
         height: 2px;
         z-index: 0;
         background-color: rgb(255, 255, 255);
@@ -678,10 +671,10 @@ p{
       .deux-elem a::after {
         content: "";
         position: absolute;
-        right: -2rem;
+        right: 0rem;
         bottom: 0;
         z-index: 0;
-        width: 30vw;
+        width: 50vw;
         height: 2px;
         background-color: rgb(255, 255, 255);
       }
@@ -717,10 +710,6 @@ p{
         width: 70%;
         margin-left: auto;
         margin-right: auto;
-        
-       
-        
-
     }
     .icon-pos{
         background-color: #F2F2F2;
@@ -729,17 +718,13 @@ p{
         display: flex;
         align-items: center;
         padding-left: 1.5rem;
-        border: 0px;
-       
+        border: 0px;     
     }
     #pos{
         font-size: auto;
     }
     form{
-        display: flex;
-       
-        
-       
+        display: flex;    
     }
      #texte{
         /* height: 1.5rem; */
@@ -758,14 +743,12 @@ p{
         width: 30%;
     }
 
-    .flt{
-        
+    .flt{ 
         margin-left: 4rem;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         gap:1rem;
-     
     }
     .flt :nth-child(1){
         width: 100%;
@@ -776,7 +759,6 @@ p{
        flex-direction: row;
        padding: 1rem;
        gap: 1rem;
-      
     } 
     
 
@@ -791,9 +773,7 @@ p{
         align-items: center;
         padding: 1rem;
         background-color: #ffffff;
-        gap: .5rem;
-
-        
+        gap: .5rem;    
     }
 
     .element-prin{
@@ -807,9 +787,7 @@ p{
         background-color: #ffffff;
         width: 90vw;
         height: 30%;
-        order: 2;
-        
-        
+        order: 2;    
     }
     .heber h1, .heber h4{
         margin: 3rem;
@@ -820,8 +798,7 @@ p{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        margin: 1rem;
-        
+        margin: 1rem;    
     }
     .bulle-hotel{
         width: 80%;
@@ -838,8 +815,7 @@ p{
     .heber img{
         width: 100%;
         height: 8rem;
-        border-radius: 20px 20px 0px 0px;
-        
+        border-radius: 20px 20px 0px 0px; 
     }
 
  
@@ -847,23 +823,19 @@ p{
     .popu{
         background-color: #F2F2F2;
         width: 50vw;
-        /* padding: 1rem; */
+        padding: 1rem;
         height: auto;
-        order: 1;
-    
-        
+        order: 1;    
     }
     .popu-graph{
         display: flex;
         align-items:center ;
-        /* justify-content: space-between; */
-       
-        /* position: relative; */
-        /* top: 2rem; */
+        justify-content: space-between; 
+        position: relative;
+         top: 2rem;
     }
     .bulle-hotel2{
         display: flex;
-      
         height: auto;
         margin: 2rem;
     }
@@ -905,15 +877,14 @@ p{
         width: 30vw;
     }
     .activite h3{
-        text-align: center;
-        
+        text-align: center; 
     }
     .bulle-activite{
         border-radius: 20px;
         margin: 3rem;
         background-color: #FFFFFF;
         box-shadow: 3px 3px 15px 5px rgba(0,0,0,0.23);
-        width: 70vw;
+        width: 40vw;
         
        
     }
@@ -921,15 +892,20 @@ p{
     .bas{
         background-color: #F2F2F2;
         display: flex;
-        /* justify-content: space-around; */
+        justify-content: space-around;
         align-items: center;
-        height: 20vh;
+        height: auto;
+        width: auto;
   
 
         
     }
+    .bas h1{
+        font-size: small;
+    }
     .propos li,.bas-heber li,.assit li,.propos a,.bas-heber a,.assit a{
         
         color: #000000;
+        font-size: small;
     } 
 }
