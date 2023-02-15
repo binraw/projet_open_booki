@@ -321,7 +321,7 @@ p{
 
 /*------------------ CSS TABLETTE----------*/
 
-@media (min-width: 769px)  and (max-width: 992px){
+@media (min-width: 768px)  and (max-width: 992px){
    
 
     h1{
@@ -525,22 +525,29 @@ p{
         align-items:center ;
         justify-content: space-between;
         position: relative;
-        top: 2rem;
+        margin-top: 2rem;
+        margin-right: 1rem;
     }
     .bulle-hotel2{
         display: flex;
+        position: relative;
         justify-content: space-around;
         height: auto;
-        width: 30vw;
+        width: 45vw;
         overflow: hidden;
+        font-size: auto;
     }
     .star{
         display: flex;
         flex-wrap: nowrap;
         align-items: flex-end;
+        margin-top: 2rem; 
+    
+
+
     }
     span{
-        margin: 1rem;
+        margin: .2rem;
     }
     .popu img{
         width: 10vw;
@@ -556,7 +563,7 @@ p{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin: 3rem 0rem;
+        /* margin: 3rem 0rem; */
         
     }
     .act{
@@ -580,10 +587,10 @@ p{
     }
     .bulle-activite{
         border-radius: 20px;
-        margin: 1rem;
+        margin: .5rem;
         background-color: #FFFFFF;
         box-shadow: 3px 3px 15px 5px rgba(0,0,0,0.09);
-        width: 25%;
+        width: 45%;
         height: 19rem;
        
     }
@@ -608,19 +615,19 @@ p{
     }
 }
 
-@media  (max-width: 768px){
+@media  (max-width: 767px){
    
 
     h1{
         font-size: 22px;
     }
 
-    #logo{
+     #logo{
         position: relative;
         width: 6rem;
-      top: 4rem;
-      left: 3rem;
-      }
+      margin-top: 4rem;
+      margin-left: 3rem;
+      } 
      
      .menu{
         display:flex;
@@ -734,15 +741,15 @@ p{
         
        
     }
-    #texte{
-        /* height: 1.5rem;*/ 
+     #texte{
+        /* height: 1.5rem; */
         border-radius: 5px;
         border-color: #F2F2F2;
         height: 3rem;
         border: 0px;
         width: 55%;
         font-size:x-large;
-    }
+    } 
     input[type="submit"]{
         background-color: #0065FC;
         color: #FFFFFF;
@@ -761,16 +768,16 @@ p{
      
     }
     .flt :nth-child(1){
-        width: 70%;
+        width: 100%;
     }
-    #btn-animaux{
-        width: 80%;
+     #btn-animaux{
+         width: 80%; 
         text-align: center;
        flex-direction: row;
        padding: 1rem;
        gap: 1rem;
       
-    }
+    } 
     
 
 
@@ -839,8 +846,8 @@ p{
 
     .popu{
         background-color: #F2F2F2;
-        width: 100vw;
-        padding: 1rem;
+        width: 50vw;
+        /* padding: 1rem; */
         height: auto;
         order: 1;
     
@@ -851,12 +858,12 @@ p{
         align-items:center ;
         /* justify-content: space-between; */
        
-        position: relative;
-        top: 2rem;
+        /* position: relative; */
+        /* top: 2rem; */
     }
     .bulle-hotel2{
         display: flex;
-        justify-content: space-around;
+      
         height: auto;
         margin: 2rem;
     }
@@ -895,7 +902,7 @@ p{
     .activite img{
         height: auto;
         border-radius: 20px 20px 0px 0px;
-        width: 70vw;
+        width: 30vw;
     }
     .activite h3{
         text-align: center;
@@ -916,7 +923,7 @@ p{
         display: flex;
         /* justify-content: space-around; */
         align-items: center;
-        height: 40vh;
+        height: 20vh;
   
 
         
