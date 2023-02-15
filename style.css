@@ -732,7 +732,7 @@ p{
         border-color: #F2F2F2;
         height: 3rem;
         border: 0px;
-        width: 55%;
+        width: 65%;
         font-size:x-large;
     } 
     input[type="submit"]{
@@ -744,21 +744,27 @@ p{
     }
 
     .flt{ 
-        margin-left: 3rem;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        gap:1rem;
+        margin-top: 3rem;
     }
-    .flt :nth-child(1){
-        width: 100%;
+    .flt h1{
+        margin-left: 3rem;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        /* gap: 10px; */
+    }
+    .flt:nth-child(1){
+        font-size: 18px;
+
     }
      #btn-animaux{
-         width: 80%; 
+        width: 80%; 
         text-align: center;
-       flex-direction: row;
-       padding: 1rem;
-       gap: 1rem;
+        flex-direction: row;
+        /* padding: 1rem; */
+       /* gap: 1rem; */
     } 
     
 
@@ -774,6 +780,7 @@ p{
         padding: 1rem;
         background-color: #ffffff;
         gap: .5rem;    
+        margin: 1rem;
     }
 
     .element-prin{
@@ -932,6 +939,7 @@ p{
         list-style: none;
         margin: .5rem;
         margin-left: 2rem;
+        margin-bottom: 2rem;
         font-size: small;
     } 
 }
