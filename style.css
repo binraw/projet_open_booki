@@ -122,6 +122,12 @@ p{
         border: 0px;
        
     }
+    .contener-icon{
+        display: none;
+    }
+    .icon-search{
+        display: none;
+    }
     #pos{
         font-size: 1.5rem;
     }
@@ -416,6 +422,12 @@ p{
         padding-left: 1.5rem;
         border: 0px;
        
+    }
+    .contener-icon{
+        display: none;
+    }
+    .icon-search{
+        display: none;
     }
     #pos{
         font-size: 1.5rem;
@@ -747,17 +759,30 @@ p{
      #texte{
         border-radius: 5px;
         border-color: #F2F2F2;
-        height: 3rem;
+        height: auto;
         border: 0px;
         width: 65%;
         font-size:x-large;
     } 
     input[type="submit"]{
+        display: none;
+     
+    }
+    .contener-icon{
         background-color: #0065FC;
         color: #FFFFFF;
         border: 0px;
         border-radius: 0px 5px 5px 0px;
         width: 30%;
+        height: 6vh;
+        display: block;
+        align-items: center;
+    }
+    .icon-search{
+        display: block;
+       margin: auto;
+        
+
     }
 
     .flt{ 
