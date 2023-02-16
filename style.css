@@ -546,7 +546,7 @@ p{
         position: relative;
         justify-content: space-around;
         height: auto;
-        width: 45vw;
+        width: auto;
         overflow: hidden;
         font-size: auto;
     }
@@ -584,6 +584,7 @@ p{
         display: flex;
         justify-content: center;
         margin: 3rem;
+        gap: 1rem;
     }
 
     .activite img{
@@ -599,8 +600,9 @@ p{
         margin: .5rem;
         background-color: #FFFFFF;
         box-shadow: 3px 3px 15px 5px rgba(0,0,0,0.09);
-        width: 45%;
-        height: 19rem;
+        display: block;
+        width: 100%;
+        height: auto;
     }
 
     .bas{
@@ -908,7 +910,7 @@ p{
     .activite{
         display: block;
         justify-content: center;
-        width: 100%;
+        width: 80%;
        
     }
 
@@ -928,13 +930,14 @@ p{
     }
     .bulle-activite{
         border-radius: 20px;
-        margin: 3rem;
+        margin: 2rem;
         background-color: #FFFFFF;
         box-shadow: 3px 3px 15px 5px rgba(0,0,0,0.09);
-        width: 80%;
-        
-       
+        display: block;
+        width: 100%;
+        height: auto;
     }
+
 
     .bas{
         background-color: #F2F2F2;
