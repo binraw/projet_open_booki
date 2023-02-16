@@ -627,7 +627,7 @@ p{
         position: relative;
         margin-left: 3rem;
         margin-top: 10rem;
-        gap: 40%;
+        gap: 30%;
         
         
     }
@@ -671,7 +671,7 @@ p{
       .deux-elem a::after {
         content: "";
         position: absolute;
-        right: 0rem;
+        right: -2rem;
         bottom: 0;
         z-index: 0;
         width: 50vw;
@@ -727,7 +727,6 @@ p{
         display: flex;    
     }
      #texte{
-        /* height: 1.5rem; */
         border-radius: 5px;
         border-color: #F2F2F2;
         height: 3rem;
@@ -753,18 +752,17 @@ p{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        /* gap: 10px; */
     }
     .flt:nth-child(1){
         font-size: 18px;
 
     }
      #btn-animaux{
-        width: 80%; 
+        width: 100%; 
         text-align: center;
         flex-direction: row;
-        /* padding: 1rem; */
-       /* gap: 1rem; */
+        margin-left: auto;
+        
     } 
     
 
@@ -773,14 +771,15 @@ p{
         font-weight: 700;
         border-radius: 25px;
         border: 2px solid rgb(202 202 202);
-        width:auto;
+        width:35vw;
         height: 3rem;
         display: flex;
         align-items: center;
         padding: 1rem;
         background-color: #ffffff;
         gap: .5rem;    
-        margin: 1rem;
+        margin: .5rem;
+        margin-left: 1rem;
     }
 
     .element-prin{
@@ -910,7 +909,7 @@ p{
         border-radius: 20px;
         margin: 3rem;
         background-color: #FFFFFF;
-        box-shadow: 3px 3px 15px 5px rgba(0,0,0,0.23);
+        box-shadow: 3px 3px 15px 5px rgba(0,0,0,0.09);
         width: 80%;
         
        
