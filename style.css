@@ -624,8 +624,7 @@ p{
     }
     .bulle-activite{
         border-radius: 20px;
-        margin: .5rem;
-        background-color: #FFFFFF;
+        margin: .5rem;background-color: #FFFFFF;
         box-shadow: 3px 3px 15px 5px rgba(0,0,0,0.09);
         display: block;
         width: 100%;
