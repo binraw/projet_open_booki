@@ -611,7 +611,7 @@ p{
         display: flex;
         justify-content: center;
         margin: 3rem;
-        gap: 1rem;
+        gap: .5rem;
     }
 
     .activite img{
@@ -647,6 +647,7 @@ p{
         padding: .5rem 0rem ;
         color: #000000;
         font-weight: 400;
+        font-size: small;
     }
 }
 
@@ -991,8 +992,7 @@ p{
 
         
     }
-    .bas h1{
-        /* font-size: small; */
+    .bas h3{
         margin: 1rem;
         margin-left: 4rem;
     }
