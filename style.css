@@ -281,11 +281,11 @@ p{
     }
     .star{
         display: flex;
-        margin-right: auto;
-         align-self: flex-end;
-         margin-left: 1rem;
-      
-      }
+        flex-wrap: nowrap;
+        align-items: flex-end;
+        margin-top: 1rem; 
+        margin-left: 1rem;
+    }
     .popu h1{
         margin: 0rem 3rem;
         padding:1rem 0rem 1rem 0rem;
@@ -541,6 +541,9 @@ p{
         border-radius: 20px;
         box-shadow: 3px 3px 15px 5px rgba(0,0,0,0.23);
     }
+    .bulle-hotel h3,.bulle-hotel p{
+        padding: .2rem;
+    }
 
     #heber img{
         width: 100%;
@@ -581,13 +584,14 @@ p{
         display: flex;
         flex-wrap: nowrap;
         align-items: flex-end;
-        margin-top: 2rem; 
-    
-
-
+        margin-top: 1rem; 
+        margin-left: 1rem;
     }
     span{
         margin: .2rem;
+    }
+    span h3,span p{
+        padding: .5rem;
     }
     .popu img{
         width: 10vw;
