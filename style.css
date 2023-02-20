@@ -686,25 +686,13 @@ p{
         position: relative;
       }
       
-      .premier-elem a::after {
-        content: "";
-        position: absolute;
-        left: -3rem;
-        bottom: 0;
-        width: 50vw;
-        height: 2px;
-        z-index: 0;
-        background-color: rgb(255, 255, 255);
-      }
+
       
     .premier-elem a:hover{
         color: #0065FC;
 
     }
-    .premier-elem a:hover::after{
-        background-color: #0065FC;
-        z-index: 1;
-    }
+ 
     .deux-elem a {
         color: #000000;
         text-decoration: none;
@@ -713,26 +701,21 @@ p{
         text-align: center;
         position: relative;
       }
-      
-      .deux-elem a::after {
-        content: "";
-        position: absolute;
-        right: -2rem;
-        bottom: 0;
-        z-index: 0;
-        width: 50vw;
-        height: 2px;
-        background-color: rgb(255, 255, 255);
-      }
-      
+  
     .deux-elem a:hover{
         color: #0065FC;
 
     }
-    .deux-elem a:hover::after{
-        background-color: #0065FC;
-        z-index: 1;
-    }
+    .premier-elem:hover, .deux-elem:hover {
+        border-bottom: 2px solid #000; 
+        width: 50%; 
+        text-align: center; 
+        position: relative;
+     
+        
+      }
+      
+  
     
     .presentation{
         position: relative;
