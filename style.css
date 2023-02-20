@@ -198,16 +198,17 @@ p{
     #heber{
         background-color: #F2F2F2;
         border-radius: 20px;
-        margin: 2rem 1rem 3rem 3rem;
-        width: 55%;
-       padding: 1rem;
+        margin: 1rem 1rem 1rem 3rem;
+        width: 70%;
+        height: auto;
+       
         
         
         
     }
     #heber h1, #heber h4{
-        margin: 0rem 4rem;
-        padding: 3rem 0rem 2rem 0rem;
+        margin: 3rem 4rem;
+        /* padding: 3rem 0rem 2rem 0rem; */
     }
     .bulle{
         display: flex;
@@ -239,10 +240,10 @@ p{
 
     .popu{
         background-color: #F2F2F2;
-        width: auto;
+        width: 30%;
         border-radius: 20px;
         height:auto;
-        margin: 3rem;
+        margin: 1rem;
         
     }
     .popu-graph{
@@ -287,8 +288,8 @@ p{
         margin-left: 1rem;
     }
     .popu h1{
-        margin: 0rem 3rem;
-        padding:1rem 0rem 1rem 0rem;
+        margin: 0rem 4rem;
+    
     }
 
     .bulle2{
@@ -296,7 +297,7 @@ p{
         flex-direction: column;
         justify-content: center;
         margin: 3rem 0rem;
-        padding: 1.5rem;
+      
         
     }
     #act{
@@ -685,6 +686,7 @@ p{
         text-decoration: none;
        text-align: center;
        margin-top: 3rem;
+       border-bottom: 2px solid#d7d7d7;
       }
 
       
