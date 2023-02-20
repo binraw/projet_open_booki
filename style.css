@@ -573,7 +573,7 @@ p{
         position: relative;
         justify-content: space-around;
         height: auto;
-        width: auto;
+        width: 35%;
         overflow: hidden;
         font-size: auto;
     }
