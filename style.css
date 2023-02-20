@@ -688,7 +688,7 @@ p{
       
 
       
-    .premier-elem a:hover{
+    .premier-elem a:hover,.deux-elem a:hover{
         color: #0065FC;
 
     }
@@ -702,15 +702,13 @@ p{
         position: relative;
       }
   
-    .deux-elem a:hover{
-        color: #0065FC;
-
-    }
+ 
     .premier-elem:hover, .deux-elem:hover {
-        border-bottom: 2px solid #000; 
+        border-bottom: 2px solid #0065FC; 
         width: 50%; 
         text-align: center; 
         position: relative;
+      
      
         
       }
