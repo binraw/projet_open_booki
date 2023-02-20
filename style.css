@@ -671,21 +671,21 @@ p{
      .menu{
         display:flex;
         position: relative;
-        margin-left: 3rem;
-        margin-top: 10rem;
-        gap: 30%;
-        
+        justify-content: space-around;
         
     }
-    .premier-elem a {
+    .premier-elem , .deux-elem {
+        width: 50%;
+    }
+    .premier-elem a, .deux-elem a {
         color: #000000;
-        text-decoration: none;
-        padding-bottom: 2rem;
+         padding-bottom: 2rem;
         display: block;
-        text-align: center;
         position: relative;
+        text-decoration: none;
+       text-align: center;
+       margin-top: 3rem;
       }
-      
 
       
     .premier-elem a:hover,.deux-elem a:hover{
@@ -693,24 +693,15 @@ p{
 
     }
  
-    .deux-elem a {
-        color: #000000;
-        text-decoration: none;
-        padding-bottom: 2rem;
-        display: block;
-        text-align: center;
-        position: relative;
-      }
+   
   
  
-    .premier-elem:hover, .deux-elem:hover {
+    .premier-elem a:hover, .deux-elem a:hover {
         border-bottom: 2px solid #0065FC; 
-        width: 50%; 
+        width: 100%;
         text-align: center; 
         position: relative;
-      
-     
-        
+  
       }
       
   
