@@ -277,7 +277,7 @@ p {
 	}
 
 	.activite img {
-		height: 20vh;
+		height: 25vh;
 		border-radius: 20px 20px 0px 0px;
 		width: 100%;
 		object-fit: cover;
@@ -292,7 +292,7 @@ p {
 		margin: 1rem;
 		background-color: #ffffff;
 		box-shadow: 3px 3px 15px 5px rgba(0, 0, 0, 0.09);
-		width: 55rem;
+		width: 65rem;
 	}
 
 	.bas {
