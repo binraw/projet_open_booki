@@ -1,226 +1,337 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/b0ca984ba2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@700&family=Silkscreen&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@400&family=Silkscreen&display=swap" rel="stylesheet">
-    <title>Booky</title>
-</head>
-<body>
-<header>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script
+			src="https://kit.fontawesome.com/b0ca984ba2.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@700&family=Silkscreen&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@400&family=Silkscreen&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Booky</title>
+	</head>
+	<body>
+		<header>
+			<nav class="bar-nav">
+				<img
+					id="logo"
+					src="https://binraw.github.io/projet_open_booki/images/Booki.png"
+					alt=""
+					srcset=""
+				/>
 
-    <nav class="bar-nav">
-        <img id="logo" src="https://binraw.github.io/projet_open_booki/images/Booki.png" alt="" srcset="">
-        </div>
-        <div class="menu">
-            <div class="premier-elem"><a href="#heber">Hébergements</a></div>
-            <div class="deux-elem"><a href="#act">Activités</a></div>
-        </div>
-    </nav>
-</header>
-    <main>
-    <div class="presentation">
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <p>En plein centre-ville ou en pleine nature</p>
-    </div>
-        <div class="input">
-            <form action="">
-                <div class="icon-pos"><i class="fa-solid fa-location-dot" id="pos"></i></div>
-                <input id="texte" type="text" name="" placeholder="  Destination">
-                <input id="recherche" type="submit" name="" value="Rechercher">
-                <button class="contener-icon"><div class="icon-search"><i class="fa-solid fa-magnifying-glass"></i></div></button>
-            </form>
-        </div>
-        <article class="flt">
-        <h2>Filtres</h2>
-        <div class="grid">
-        <div class="bulle-filtre"><button><i class="fa-solid fa-money-bill-1-wave" id="icon-blue"></i>Economique</button></div>
-        <div class="bulle-filtre"><button><i class="fa-solid fa-person"id="icon-blue"></i>
-            Familial</button></div>
-        <div class="bulle-filtre"><button><i class="fa-solid fa-heart"id="icon-blue"></i>
-            Romantique</button></div>
-        <div class="bulle-filtre"><button id="btn-animaux"><i class="fa-solid fa-dog"id="icon-blue"></i>Animaux autorisés</button></div>
-         </article></div>
+				<div class="menu">
+					<div class="premier-elem"><a href="#heber">Hébergements</a></div>
+					<div class="deux-elem"><a href="#act">Activités</a></div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<div class="presentation">
+				<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+				<p>En plein centre-ville ou en pleine nature</p>
+			</div>
+			<div class="input">
+				<form action="">
+					<div class="icon-pos">
+						<i class="fa-solid fa-location-dot" id="pos"></i>
+					</div>
+					<input id="texte" type="text" name="" placeholder="  Destination" />
+					<input id="recherche" type="submit" name="" value="Rechercher" />
+					<button class="contener-icon">
+						<div class="icon-search">
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</div>
+					</button>
+				</form>
+			</div>
+			<div class="flt">
+				<h2>Filtres</h2>
+				<div class="grid">
+					<div class="bulle-filtre">
+						<button>
+							<i class="fa-solid fa-money-bill-1-wave" id="icon-blue"></i
+							>Economique
+						</button>
+					</div>
+					<div class="bulle-filtre">
+						<button>
+							<i class="fa-solid fa-person" id="icon-blue"></i> Familial
+						</button>
+					</div>
+					<div class="bulle-filtre">
+						<button>
+							<i class="fa-solid fa-heart" id="icon-blue"></i> Romantique
+						</button>
+					</div>
+					<div class="bulle-filtre">
+						<button id="btn-animaux">
+							<i class="fa-solid fa-dog" id="icon-blue"></i>Animaux autorisés
+						</button>
+					</div>
+				</div>
+			</div>
 
-         <p class="info"><i class="fa-solid fa-info"id="icon-i"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+			<p class="info">
+				<i class="fa-solid fa-info" id="icon-i"></i>Plus de 500 logements sont
+				disponibles dans cette ville
+			</p>
 
-<div class="element-prin">
-        <div id="heber">
-            <h2>Hébergements à Marseille</h2>
-    <article class="bulle">
-       <div class="bulle-hotel"><a href="#">
-            <img src="https://binraw.github.io/projet_open_booki/images/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="" srcset="">
-            <span>
-        <h3>Auberge La Canebière</h3>
-            <p >Nuit à partir de 25€</p>
-            <div class="star">
-            <i class="fa-solid fa-star" id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="transparent"></i></div>
-        </div></span></a>
-       <div class="bulle-hotel"><a href="#">
-            <img src="https://binraw.github.io/projet_open_booki/images/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="" srcset="">
-            <span>
-            <h3>Hôtel du port</h3>
-            <p >Nuit à partir de 52€</p>
-            <div class="star">
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star" id="transparent"></i></div>
-            
-        </div></span></a>
-        <div class="bulle-hotel"><a href="#">
-            <img src="https://binraw.github.io/projet_open_booki/images/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="" srcset="">
-            <span>
-            <h3>Hôtel Les mouettes</h3>
-            <p>Nuit à partir de 76€</p>
-            <div class="star">
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="transparent"></i></div>
-        </div></span></a>
-        <div class="bulle-hotel"><a href="#">
-            <img src="https://binraw.github.io/projet_open_booki/images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="" srcset="">
-           <span>
-            <h3>Hôtel de la mer</h3>
-            <p>Nuit à partir de 46€</p>
-            <div class="star">
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="transparent"></i></div>
-        </div></span></a>
-        <div class="bulle-hotel"><a href="#">
-            <img src="https://binraw.github.io/projet_open_booki/images/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="" srcset="">
-           <span>
-            <h3>Auberge Le Panier</h3>
-            <p>Nuit à partir de 23€</p>
-            <div class="star">
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="transparent"></i></div>
-        </div></span></a>
-        <div class="bulle-hotel"><a href="#">
-            <img src="https://binraw.github.io/projet_open_booki/images/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="" srcset="">
-           <span>
-            <h3>Hôtel Chez Amina</h3>
-            <p>Nuit à partir de 96€</p>
-            <div class="star">
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="transparent"></i></div>
-        </div></span></a>
-    </article>
-    <h4>Afficher plus</h4>
-    </div> 
-    
-    <div class="popu">
-           <div class="popu-graph"><h2>Les plus populaires</h2><i class="fa-solid fa-chart-line" id="blue"></i></div> 
-            <article class="bulle2">
-        <a class="bulle-hotel2" href="#">
-            <img src="https://binraw.github.io/projet_open_booki/images/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="" srcset="">
-           <span><h3>Hôtel Le soleil du matin</h3>
-            <p>Nuit à partir de 128€</p>
-            <div class="star">
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="transparent"></i></div>
-        </span> 
-        </a>
-        <a class="bulle-hotel2" href="#">
-            <img src="https://binraw.github.io/projet_open_booki/images/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="" srcset="">
-            <span><h3>Chambres d’hôtes Au cœur de l’eau</h3>
-            <p>Nuit à partir de 71€</p>
-            <div class="star">
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="transparent"></i></div>
-        </span> 
-        </a>
-        <a class="bulle-hotel2" href="#">
-            <img src="https://binraw.github.io/projet_open_booki/images/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="" srcset="">
-            <span><h3>Hôtel Bleu et Blanc</h3>
-            <p>Nuit à partir de 68€</p>
-            <div class="star">
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="blue"></i>
-            <i class="fa-solid fa-star"id="transparent"></i></div>
-        </span> 
-        </a>
-        </div>
-    </article>
-    </div>
+			<div class="element-prin">
+				<div id="heber">
+					<h2>Hébergements à Marseille</h2>
+					<div class="bulle">
+						<div class="bulle-hotel">
+							<a href="#">
+								<img
+									src="https://binraw.github.io/projet_open_booki/images/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+									alt=""
+									srcset="" />
+								<span>
+									<h3>Auberge La Canebière</h3>
+									<p>Nuit à partir de 25€</p>
+									<div class="star">
+										<i class="fa-solid fa-star" id="blue"></i>
+										<i class="fa-solid fa-star" id="blue"></i>
+										<i class="fa-solid fa-star" id="blue"></i>
+										<i class="fa-solid fa-star" id="blue"></i>
+										<i class="fa-solid fa-star" id="transparent"></i>
+									</div> </span
+							></a>
+						</div>
+						<div class="bulle-hotel">
+							<a href="#">
+								<img
+									src="https://binraw.github.io/projet_open_booki/images/aw-creative-VGs8z60yT2c-unsplash.jpg"
+									alt=""
+									srcset="" />
+								<span>
+									<h3>Hôtel du port</h3>
+									<p>Nuit à partir de 52€</p>
+									<div class="star">
+										<i class="fa-solid fa-star" id="blue"></i>
+										<i class="fa-solid fa-star" id="blue"></i>
+										<i class="fa-solid fa-star" id="blue"></i>
+										<i class="fa-solid fa-star" id="blue"></i>
+										<i class="fa-solid fa-star" id="transparent"></i>
+									</div> </span
+							></a>
+						</div>
+						<div class="bulle-hotel">
+							<a href="#">
+								<img
+									src="https://binraw.github.io/projet_open_booki/images/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+									alt=""
+									srcset="" />
+								<span>
+									<h3>Hôtel Les mouettes</h3>
+									<p>Nuit à partir de 76€</p>
+									<div class="star">
+										<i class="fa-solid fa-star" id="blue"></i>
+										<i class="fa-solid fa-star" id="blue"></i>
+										<i class="fa-solid fa-star" id="blue"></i>
+										<i class="fa-solid fa-star" id="blue"></i>
+										<i class="fa-solid fa-star" id="transparent"></i>
+									</div> </span
+							></a>
+						</div>
+						<div class="bulle-hotel">
+							<a href="#">
+								<img
+									src="https://binraw.github.io/projet_open_booki/images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+									alt=""
+									srcset="" />
+								<span>
+									<h3>Hôtel de la mer</h3>
+									<p>Nuit à partir de 46€</p>
+									<div class="star">
+										<i class="fa-solid fa-star" id="blue"></i>
+										<i class="fa-solid fa-star" id="blue"></i>
+										<i class="fa-solid fa-star" id="blue"></i>
+										<i class="fa-solid fa-star" id="blue"></i>
+										<i class="fa-solid fa-star" id="transparent"></i>
+									</div> </span
+							></a>
+						</div>
+						<div class="bulle-hotel">
+							<a href="#">
+								<img
+									src="https://binraw.github.io/projet_open_booki/images/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+									alt=""
+									srcset="" />
+								<span>
+									<h3>Auberge Le Panier</h3>
+									<p>Nuit à partir de 23€</p>
+									<div class="star">
+										<i class="fa-solid fa-star" id="blue"></i>
+										<i class="fa-solid fa-star" id="blue"></i>
+										<i class="fa-solid fa-star" id="blue"></i>
+										<i class="fa-solid fa-star" id="blue"></i>
+										<i class="fa-solid fa-star" id="transparent"></i>
+									</div> </span
+							></a>
+						</div>
+						<div class="bulle-hotel">
+							<a href="#">
+								<img
+									src="https://binraw.github.io/projet_open_booki/images/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+									alt=""
+									srcset="" />
+								<span>
+									<h3>Hôtel Chez Amina</h3>
+									<p>Nuit à partir de 96€</p>
+									<div class="star">
+										<i class="fa-solid fa-star" id="blue"></i>
+										<i class="fa-solid fa-star" id="blue"></i>
+										<i class="fa-solid fa-star" id="blue"></i>
+										<i class="fa-solid fa-star" id="blue"></i>
+										<i class="fa-solid fa-star" id="transparent"></i>
+									</div> </span
+							></a>
+						</div>
+					</div>
+					<h4>Afficher plus</h4>
+				</div>
 
-    <h2 id="act">Activités à Marseille</h2>
-    <div class="activite">
-    <a class="bulle-activite" href="#">
-            <img src="https://binraw.github.io/projet_open_booki/images/vieux-port.jpg" alt="Port de Marseille" srcset="">
-            <h3>Vieux-Port</h3>
-    </a>
-    <a class="bulle-activite" href="#">
-            <img src="https://binraw.github.io/projet_open_booki/images/fort_pomègues.avif" alt="Fort de Pomègues" srcset="">
-            <h3>Fort de Pomègues</h3>
-    </a> 
-    <a class="bulle-activite" href="#">
-            <img src="https://binraw.github.io/projet_open_booki/images/parc-national.jfif" alt="Parc national des Calanques" srcset="">
-            <h3>Parc national des Calanques</h3>
-    </a>
-        <a class="bulle-activite" href="#">
-            <img src="https://binraw.github.io/projet_open_booki/images/Notre-Dame-de-la-Garde.jfif" alt="Notre Dame de la garde" srcset="">
-            <h3>Notre Dame de la garde</h3>
-        </a>
-    </div>
+				<div class="popu">
+					<div class="popu-graph">
+						<h2>Les plus populaires</h2>
+						<i class="fa-solid fa-chart-line" id="blue"></i>
+					</div>
+					<div class="bulle2">
+						<a class="bulle-hotel2" href="#">
+							<img
+								src="https://binraw.github.io/projet_open_booki/images/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+								alt=""
+								srcset=""
+							/>
+							<span
+								><h3>Hôtel Le soleil du matin</h3>
+								<p>Nuit à partir de 128€</p>
+								<div class="star">
+									<i class="fa-solid fa-star" id="blue"></i>
+									<i class="fa-solid fa-star" id="blue"></i>
+									<i class="fa-solid fa-star" id="blue"></i>
+									<i class="fa-solid fa-star" id="blue"></i>
+									<i class="fa-solid fa-star" id="transparent"></i>
+								</div>
+							</span>
+						</a>
+						<a class="bulle-hotel2" href="#">
+							<img
+								src="https://binraw.github.io/projet_open_booki/images/aw-creative-VGs8z60yT2c-unsplash.jpg"
+								alt=""
+								srcset=""
+							/>
+							<span
+								><h3>Chambres d’hôtes Au cœur de l’eau</h3>
+								<p>Nuit à partir de 71€</p>
+								<div class="star">
+									<i class="fa-solid fa-star" id="blue"></i>
+									<i class="fa-solid fa-star" id="blue"></i>
+									<i class="fa-solid fa-star" id="blue"></i>
+									<i class="fa-solid fa-star" id="blue"></i>
+									<i class="fa-solid fa-star" id="transparent"></i>
+								</div>
+							</span>
+						</a>
+						<a class="bulle-hotel2" href="#">
+							<img
+								src="https://binraw.github.io/projet_open_booki/images/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+								alt=""
+								srcset=""
+							/>
+							<span
+								><h3>Hôtel Bleu et Blanc</h3>
+								<p>Nuit à partir de 68€</p>
+								<div class="star">
+									<i class="fa-solid fa-star" id="blue"></i>
+									<i class="fa-solid fa-star" id="blue"></i>
+									<i class="fa-solid fa-star" id="blue"></i>
+									<i class="fa-solid fa-star" id="blue"></i>
+									<i class="fa-solid fa-star" id="transparent"></i>
+								</div>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
 
-    </main>
-    <footer>
-        <div class="bas">
-            <div class="propos">
-        <h3>À propos</h3>
-        <br>
-             <ul>
-        <li><a href="#">Fonctionnement du site</a></li>
-        <li><a href="#">Conditions générales </a></li>
-        <li><a href="#">Données et confidentialité</a></li>
-             </ul>
-            </div>
-             <div class="bas-heber">
-        <h3>Nos hébergements</h3>
-        <br>
-        <ul>
-        <li><a href="#">Charte qualité</a></li>
-        <li><a href="#">Proposer votre hôtel</a></li>
-        </ul>
-    </div>
-        <div class="assit">
-        <h3>Assistance</h3>
-        <br>
-        <ul>
-        <li><a href="#">Centre d’aide</a></li>
-        <li><a href="#">Nous contacter</a></li>
-        </ul></div></div>
-    </footer>
-</body>
+			<h2 id="act">Activités à Marseille</h2>
+			<div class="activite">
+				<a class="bulle-activite" href="#">
+					<img
+						src="https://binraw.github.io/projet_open_booki/images/vieux-port.jpg"
+						alt="Port de Marseille"
+						srcset=""
+					/>
+					<h3>Vieux-Port</h3>
+				</a>
+				<a class="bulle-activite" href="#">
+					<img
+						src="https://binraw.github.io/projet_open_booki/images/fort_pomègues.avif"
+						alt="Fort de Pomègues"
+						srcset=""
+					/>
+					<h3>Fort de Pomègues</h3>
+				</a>
+				<a class="bulle-activite" href="#">
+					<img
+						src="https://binraw.github.io/projet_open_booki/images/parc-national.jfif"
+						alt="Parc national des Calanques"
+						srcset=""
+					/>
+					<h3>Parc national des Calanques</h3>
+				</a>
+				<a class="bulle-activite" href="#">
+					<img
+						src="https://binraw.github.io/projet_open_booki/images/Notre-Dame-de-la-Garde.jfif"
+						alt="Notre Dame de la garde"
+						srcset=""
+					/>
+					<h3>Notre Dame de la garde</h3>
+				</a>
+			</div>
+		</main>
+		<footer>
+			<div class="bas">
+				<div class="propos">
+					<h3>À propos</h3>
+					<br />
+					<ul>
+						<li><a href="#">Fonctionnement du site</a></li>
+						<li><a href="#">Conditions générales </a></li>
+						<li><a href="#">Données et confidentialité</a></li>
+					</ul>
+				</div>
+				<div class="bas-heber">
+					<h3>Nos hébergements</h3>
+					<br />
+					<ul>
+						<li><a href="#">Charte qualité</a></li>
+						<li><a href="#">Proposer votre hôtel</a></li>
+					</ul>
+				</div>
+				<div class="assit">
+					<h3>Assistance</h3>
+					<br />
+					<ul>
+						<li><a href="#">Centre d’aide</a></li>
+						<li><a href="#">Nous contacter</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
