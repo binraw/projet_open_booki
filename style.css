@@ -18,6 +18,7 @@ body{
 }
 #icon-blue{
     color: #0065FC;
+    font-size: large;
   
 }
 p{
@@ -36,7 +37,7 @@ p{
 @media only screen and (min-width: 993px){
    
 
-    h1{
+    h2{
         font-size: 22px;
     }
 
@@ -206,7 +207,7 @@ p{
         
         
     }
-    #heber h1, #heber h4{
+    #heber h2, #heber h4{
         margin: 3rem 4rem;
         /* padding: 3rem 0rem 2rem 0rem; */
     }
@@ -289,7 +290,7 @@ p{
         margin-top: 1rem; 
         margin-left: 1rem;
     }
-    .popu h1{
+    .popu h2{
         margin: 0rem 4rem;
     
     }
@@ -359,7 +360,7 @@ p{
 @media (min-width: 768px)  and (max-width: 992px){
    
 
-    h1{
+    h2{
         font-size: 22px;
     }
 
@@ -523,7 +524,7 @@ p{
         
         
     }
-    #heber h1, #heber h4{
+    #heber h2, #heber h4{
         margin: 0rem 0rem 0rem 3rem;
         padding: 3rem 0rem 2rem 0rem;
     }
@@ -582,7 +583,6 @@ p{
         justify-content: space-around;
         height: auto;
         width: 35%;
-        overflow: hidden;
         font-size: auto;
     }
     .star{
@@ -604,7 +604,7 @@ p{
         border-radius: 20px 0px 0px 20px;
         object-fit: cover;
     }
-    .popu h1{
+    .popu h2{
         margin: 0rem 0rem 0rem 6rem;
         padding:1rem 0rem 1rem 0rem;
     }
@@ -664,7 +664,7 @@ p{
 @media  (max-width: 767px){
    
 
-    h1{
+    h2{
         font-size: 22px;
     }
 
@@ -696,10 +696,7 @@ p{
       }
 
       
-    .premier-elem a:hover,.deux-elem a:hover{
-        color: #0065FC;
-
-    }
+   
  
    
   
@@ -709,7 +706,7 @@ p{
         width: 100%;
         text-align: center; 
         position: relative;
-  
+        color: #0065FC;
       }
       
   
@@ -787,7 +784,7 @@ p{
     .flt{ 
         margin-top: 3rem;
     }
-    .flt h1{
+    .flt h2{
         margin-left: 3rem;
     }
     .grid{
@@ -840,7 +837,7 @@ p{
         height: 30%;
         order: 2;    
     }
-    #heber h1, #heber h4{
+    #heber h2, #heber h4{
         margin: 3rem;
         
     }
@@ -922,7 +919,7 @@ p{
         border-radius: 20px 0px 0px 20px;
         object-fit: cover;
     }
-    .popu h1{
+    .popu h2{
         margin: 3rem;
     }
 
