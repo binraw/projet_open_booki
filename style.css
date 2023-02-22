@@ -618,7 +618,7 @@ p {
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	h2 {
 		font-size: 22px;
 	}
