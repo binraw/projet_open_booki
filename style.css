@@ -144,7 +144,6 @@ p {
 	}
 	.grid {
 		display: flex;
-		/* justify-content: space-around; */
 	}
 	#btn-animaux {
 		width: auto;
@@ -184,7 +183,6 @@ p {
 	#heber h2,
 	#heber h4 {
 		margin: 3rem 4rem;
-		/* padding: 3rem 0rem 2rem 0rem; */
 	}
 	.bulle {
 		display: flex;
@@ -526,7 +524,6 @@ p {
 		justify-content: space-around;
 		height: auto;
 		width: 35%;
-		font-size: auto;
 	}
 	.bulle-hotel:nth-child(2) .star,
 	.bulle-hotel:nth-child(4) .star {
@@ -618,6 +615,8 @@ p {
 	}
 }
 
+/*----------------CSS MOBILE-----------------*/
+
 @media (max-width: 767px) {
 	h2 {
 		font-size: 22px;
@@ -695,7 +694,7 @@ p {
 		border: 0px;
 	}
 	#pos {
-		font-size: auto;
+		font-size: large;
 	}
 	form {
 		display: flex;
@@ -790,6 +789,10 @@ p {
 	}
 	.bulle-hotel {
 		width: 80%;
+	}
+	.bulle-hotel h3,
+	.bulle-hotel p {
+		margin-left: 1rem;
 	}
 
 	.bulle-hotel,
