@@ -31,7 +31,7 @@ p {
 	color: #000000;
 }
 
-@media (max-width: 1440px) and (min-width: 993px) {
+@media (max-width: 1400px) and (min-width: 993px) {
 	h2 {
 		font-size: 22px;
 	}
