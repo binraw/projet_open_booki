@@ -31,7 +31,7 @@ p {
 	color: #000000;
 }
 
-@media only screen and (min-width: 993px) {
+@media (max-width: 1440px) and (min-width: 993px) {
 	h2 {
 		font-size: 22px;
 	}
@@ -178,11 +178,11 @@ p {
 		border-radius: 20px;
 		margin: 1rem 1rem 1rem 3rem;
 		width: 70%;
-		height: auto;
+		height: 65vh;
 	}
 	#heber h2,
 	#heber h4 {
-		margin: 3rem 4rem;
+		margin: 3rem 4rem 1.5rem 4rem;
 	}
 	.bulle {
 		display: flex;
@@ -192,6 +192,10 @@ p {
 	}
 	.bulle-hotel {
 		width: 25%;
+	}
+	.bulle-hotel h3,
+	.bulle-hotel p {
+		margin-left: 1rem;
 	}
 
 	.bulle-hotel,
@@ -218,7 +222,7 @@ p {
 		background-color: #f2f2f2;
 		width: 30%;
 		border-radius: 20px;
-		height: auto;
+		height: 65vh;
 		margin: 1rem;
 	}
 	.popu-graph {
@@ -230,21 +234,28 @@ p {
 	}
 	.bulle-hotel2 {
 		display: flex;
+		height: 15vh;
 	}
 	span {
 		display: flex;
 		flex-direction: column;
-		height: auto;
+		height: 7rem;
 		justify-content: space-around;
 	}
 	.bulle2 h3 {
 		margin-top: 1rem;
 		margin-left: 1rem;
 	}
+	.bulle2 span {
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		justify-content: space-around;
+	}
 	.bulle2 p {
 		margin-bottom: auto;
 		margin-left: 1rem;
-		margin-top: 1rem;
+		margin-top: auto;
 	}
 	.popu img {
 		width: 13vw;
@@ -258,6 +269,7 @@ p {
 		align-items: flex-end;
 		margin-top: 1rem;
 		margin-left: 1rem;
+		margin-bottom: 1rem;
 	}
 	.popu h2 {
 		margin: 0.5rem 1rem;
@@ -539,7 +551,7 @@ p {
 	span {
 		display: flex;
 		flex-direction: column;
-		height: auto;
+		height: 7rem;
 		justify-content: space-around;
 	}
 	span h3,
@@ -561,6 +573,12 @@ p {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
+	}
+	.bulle2 span {
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		justify-content: space-around;
 	}
 	#act {
 		margin-left: 3rem;
@@ -843,7 +861,7 @@ p {
 	.bulle2 p {
 		margin-bottom: auto;
 		margin-left: 1rem;
-		margin-top: 1rem;
+		margin-top: 0.5rem;
 	}
 	.star {
 		margin-right: auto;
