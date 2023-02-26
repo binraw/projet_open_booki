@@ -211,6 +211,7 @@ p {
 		background-color: #f0f2f6;
 		margin: 1rem;
 		padding: 0.3rem;
+		height: auto;
 		border-radius: 20px;
 		box-shadow: 3px 3px 15px 5px rgba(0, 0, 0, 0.09);
 	}
