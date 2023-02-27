@@ -233,6 +233,7 @@ p {
 		border-radius: 20px;
 		height: auto;
 		margin: 1rem;
+		margin-right: 3rem;
 	}
 	.popu-graph {
 		display: flex;
