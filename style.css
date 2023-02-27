@@ -370,7 +370,6 @@ p {
 	.premier-elem a:hover {
 		color: #0065fc;
 		text-decoration: none;
-		margin: 3rem;
 		padding: 2rem;
 		border-top: 3px solid;
 	}
@@ -575,7 +574,7 @@ p {
 		object-fit: cover;
 	}
 	.popu h2 {
-		margin: 0rem 0rem 0rem 6rem;
+		margin: 0rem 0rem 0rem 3rem;
 		padding: 1rem 0rem 1rem 0rem;
 	}
 
@@ -583,6 +582,8 @@ p {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
+		margin-left: 2rem;
+		margin-right: 2rem;
 	}
 	.bulle2 span {
 		display: flex;
