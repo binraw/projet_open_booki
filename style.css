@@ -180,10 +180,15 @@ p {
 		width: 70%;
 		height: 100vh;
 	}
-	#heber h2,
+	#heber h2 {
+		margin-top: 2rem;
+		margin-bottom: auto;
+		margin-left: 4rem;
+	}
+
 	#heber h4 {
 		margin-left: 4rem;
-		margin-top: 1rem;
+		margin-top: auto;
 		margin-bottom: auto;
 	}
 	.bulle {
