@@ -220,10 +220,6 @@ p {
 		border-radius: 20px;
 		box-shadow: 3px 3px 15px 5px rgba(0, 0, 0, 0.09);
 	}
-	.bulle-hotel:nth-child(2) .star,
-	.bulle-hotel:nth-child(4) .star {
-		margin-top: 2rem;
-	}
 
 	#heber img {
 		width: 100%;
