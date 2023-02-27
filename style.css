@@ -243,7 +243,7 @@ p {
 	}
 	.bulle-hotel2 {
 		display: flex;
-		height: auto;
+		height: 17.5vh;
 	}
 	span {
 		display: flex;
