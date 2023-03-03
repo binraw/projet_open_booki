@@ -5,9 +5,7 @@
 
 body {
 	background: #ffffff;
-
 	display: flex;
-
 	font-family: "Raleway", sans-serif;
 }
 .container {
@@ -20,7 +18,7 @@ body {
 	color: #0065fc;
 }
 #transparent {
-	color: #d7d7d7;
+	color: rgb(230, 229, 229);
 }
 #icon-blue {
 	color: #0065fc;
@@ -39,7 +37,7 @@ p {
 	color: #000000;
 }
 
-@media (max-width: 14000px) and (min-width: 993px) {
+@media only screen and (min-width: 993px) {
 	h2 {
 		font-size: 22px;
 	}
@@ -178,7 +176,6 @@ p {
 	.element-prin {
 		display: flex;
 		width: auto;
-		/* align-items: center; */
 	}
 
 	#heber {
@@ -395,7 +392,6 @@ p {
 	.deux-elem a:hover {
 		color: #0065fc;
 		text-decoration: none;
-		margin: 3rem;
 		padding: 2rem;
 		border-top: 3px solid;
 	}
@@ -656,7 +652,7 @@ p {
 
 /*----------------CSS MOBILE-----------------*/
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	h2 {
 		font-size: 22px;
 	}
@@ -783,7 +779,6 @@ p {
 		text-align: center;
 		flex-direction: row;
 
-		margin-right: 1rem;
 		gap: 0.3rem;
 	}
 
